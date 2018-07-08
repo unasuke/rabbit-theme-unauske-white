@@ -46,17 +46,12 @@ include_theme("image")
 include_theme("table")
 include_theme("newline-in-slides")
 include_theme("per-slide-background-color")
-
 include_theme("background-image-toolkit")
 include_theme("per-slide-background-image")
 include_theme("body-background-image")
-
 include_theme("tag")
-
 include_theme("syntax-highlighting")
-
 include_theme("default-comment")
-
 
 match(TitleSlide, Title) do |titles|
   titles.padding_bottom = @space * 2

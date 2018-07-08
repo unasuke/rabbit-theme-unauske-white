@@ -24,6 +24,9 @@
 @x_large_script_font_size    = @large_font_size
 @title_slide_title_font_size = @xxx_large_font_size
 
+@block_quote_fill_color = "#f8f8f8"
+@preformatted_fill_color = "#f8f8f8"
+
 set_foreground(@default_foreground)
 set_background(@default_background)
 
